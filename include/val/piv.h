@@ -1,7 +1,8 @@
 #ifndef KCTL_VAL_PIV_H
 #define KCTL_VAL_PIV_H
 
-#define __hash_int__(x)     ((int)((x) * 2654435761U))
+#define __int_max__         (2147483647)
+#define __hash_int__(x)     ((((long long)(x)) * 265441U) % __int_max__)
 
 #define __sum_01__(str)     (__hash_int__((int)(unsigned char)str[0]))
 #define __sum_02__(str)     (__hash_int__((int)__sum_01__(str) + (unsigned char)str[1]))
@@ -73,6 +74,9 @@
 
 #define piv(str)            ((const int)(__sum_n__(str, (sizeof(str)-1))))
 #define pivlen(str, len)    ((const int)(__sum_n__(str, len)))
-#define pivalt0(file, len)  ((sizeof(file)-1) + (len))
+
+#define __alt0_subhash_int__(x) ((long long)(((((((long long)(x)) * 212) + 12313) % __int_max__) * 3) % __int_max__))
+#define __alt0_hash_int__(x)    (__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(x)))))))
+#define pivalt0(file, len)      ((int)(__alt0_hash_int__((sizeof(file)-1)) + __alt0_hash_int__(len)))
 
 #endif // KCTL_VAL_PIV_H
