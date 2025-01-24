@@ -5,6 +5,7 @@
     typedef struct __class_##n##_t__ n; \
     struct __class_##n##_t__            \
 
+#define self(n) const n* const self
 #define fn(n, ...) (*n)(__VA_ARGS__)
 
 #endif // KCTL_OBJECT_CLASS_H
