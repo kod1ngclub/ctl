@@ -1,5 +1,5 @@
-#ifndef CTL_VAL_PIV_H
-#define CTL_VAL_PIV_H
+#ifndef KCTL_VAL_PIV_H
+#define KCTL_VAL_PIV_H
 
 #define __hash_int__(x)     ((int)((x) * 2654435761U))
 
@@ -75,4 +75,4 @@
 #define pivlen(str, len)    ((const int)(__sum_n__(str, len)))
 #define pivalt0(file, len)  ((sizeof(file)-1) + (len))
 
-#endif // CTL_VAL_PIV_H
+#endif // KCTL_VAL_PIV_H

@@ -1,5 +1,5 @@
-#ifndef CTL_DEFAULT_H
-#define CTL_DEFAULT_H
+#ifndef KCTL_DEFAULT_H
+#define KCTL_DEFAULT_H
 
 #define succ(t) t* const
 #define arrow(t) const t*
@@ -7,4 +7,4 @@
 
 #define cast(t, v) (t)(v)
 
-#endif // CTL_DEFAULT_H
+#endif // KCTL_DEFAULT_H

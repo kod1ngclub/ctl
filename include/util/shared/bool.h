@@ -1,5 +1,5 @@
-#ifndef CTL_SHARED_BOOL_H
-#define CTL_SHARED_BOOL_H
+#ifndef KCTL_SHARED_BOOL_H
+#define KCTL_SHARED_BOOL_H
 
 #include "stdbool.h"
 
@@ -9,4 +9,4 @@
  * If stdbool changes, so 'bool' disapeears, use typedef to define 'bool'
 */
 
-#endif // CTL_SHARED_BOOL_H
+#endif // KCTL_SHARED_BOOL_H

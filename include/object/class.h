@@ -1,5 +1,5 @@
-#ifndef CTL_OBJECT_CLASS_H
-#define CTL_OBJECT_CLASS_H
+#ifndef KCTL_OBJECT_CLASS_H
+#define KCTL_OBJECT_CLASS_H
 
 #define class(n)                        \
     typedef struct __class_##n##_t__ n; \
@@ -7,4 +7,4 @@
 
 #define fn(n, ...) (*n)(__VA_ARGS__)
 
-#endif // CTL_OBJECT_CLASS_H
+#endif // KCTL_OBJECT_CLASS_H
