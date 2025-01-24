@@ -9,7 +9,9 @@ C99 Template Library
 
 ## Getting started
 
-// not yet
+```bash
+# not yet
+```
 
 ## Contribute
 
