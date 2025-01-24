@@ -3,7 +3,7 @@
 
 #define option(t, e) __option_##t##_##e##__
 
-#define def_option(t, e)            \
+#define typedef_option(t, e)        \
     typedef struct {                \
         const t data;               \
         const e err;                \

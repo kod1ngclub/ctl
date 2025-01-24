@@ -5,7 +5,7 @@
 
 #define nonable(t) __nonable_##t##__
 
-#define def_nonable(t)      \
+#define typedef_nonable(t)  \
     typedef struct {        \
         const t data;       \
         const bool ok;      \
