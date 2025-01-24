@@ -64,7 +64,7 @@ FILEGUARD_ENDIF     = "#endif // KCTL" + NEWLINE
 
 OUT_FILENAME = "kctl.h"
 with open(OUT_FILENAME, "w") as file:
-    file.write(FILEGUARD_ENDIF)
+    file.write(FILEGUARD_IFNDEF)
     file.write(FILEGUARD_DEFINE)
     file.write(out)
     file.write(FILEGUARD_ENDIF)
