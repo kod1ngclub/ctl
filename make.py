@@ -34,14 +34,14 @@ mod = [
 ]
 
 ENDIF = "#endif"
-def unguard(lines: list[str]):
+def unguard(lines):
     ifndefless = lines[2:]
     endifless = [line for line in ifndefless if not line.startswith(ENDIF)]
 
     return endifless
 
 INCLUDE = "#include"
-def uninclude(lines: list[str]):
+def uninclude(lines):
     return [line for line in lines if not line.startswith(INCLUDE)]
 
 succmods    = dep + default + mod
