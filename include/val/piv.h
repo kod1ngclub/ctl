@@ -73,6 +73,6 @@
 
 #define piv(str)            ((const int)(__sum_n__(str, (sizeof(str)-1))))
 #define pivlen(str, len)    ((const int)(__sum_n__(str, len)))
-#define pivalt(file, len)   ((sizeof(file)-1) + (len))
+#define pivalt0(file, len)  ((sizeof(file)-1) + (len))
 
 #endif // CTL_VAL_PIV_H
