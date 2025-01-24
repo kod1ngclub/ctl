@@ -10,7 +10,7 @@ Kod1ng C99 Template Library
 ## Getting started
 
 ```bash
-# not yet
+python3 make.py
 ```
 
 ## Contribute
