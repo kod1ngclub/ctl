@@ -9,14 +9,7 @@ C99 Template Library
 
 ## Getting started
 
-Launch a wizard tool with `make.py`
-
-```bash
-git clone https://github.com/kod1ngclub/ctl.git
-
-cd ctl
-python3 make.py
-```
+// not yet
 
 ## Contribute
 
