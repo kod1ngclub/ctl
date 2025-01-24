@@ -57,4 +57,14 @@ for mod in succmods:
 
         out += EMPTY.join(lines)
 
-print(out)
+NEWLINE             = "\n"
+FILEGUARD_IFNDEF    = "#ifndef KCTL" + NEWLINE
+FILEGUARD_DEFINE    = "#define KCTL" + NEWLINE
+FILEGUARD_ENDIF     = "#endif // KCTL" + NEWLINE
+
+OUT_FILENAME = "kctl.h"
+with open(OUT_FILENAME, "w") as file:
+    file.write(FILEGUARD_ENDIF)
+    file.write(FILEGUARD_DEFINE)
+    file.write(out)
+    file.write(FILEGUARD_ENDIF)
