@@ -1,6 +1,6 @@
-# CTL
+# KCTL
 
-C99 Template Library
+Kod1ng C99 Template Library
 
 ## Concept
 
@@ -15,7 +15,7 @@ C99 Template Library
 
 ## Contribute
 
-- **CTL** is only managed by our team members
+- **KCTL** is only managed by our team members
 - Join our [Discord][discord] if you want to contribute
 
 [discord]: https://www.exmaple.discord.com
