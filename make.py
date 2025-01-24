@@ -1,24 +1,40 @@
+import os;
+
+# clear CLI
+os.system('cls' if os.name == 'nt' else 'clear')
+
 class Mod:
     file        = ""
     includable  = False
 
     def init(self, f):
         self.file = f
+
+        print("Mod", f, "was added")
         return self
 
     def include(self, allowance):
         self.includable = allowance
+
+        print("Mod", self.file, "set include-able")
         return self
 
+print("==== Dep (base dependency)")
 dep = [
     Mod().init("include/util/shared/bool.h").include(True),
     Mod().init("include/util/shared/str.h")
 ]
 
+print()
+
+print("==== Default (default modules)")
 default = [
     Mod().init("include/default.h")
 ]
 
+print()
+
+print("==== Modules")
 mod = [
     Mod().init("include/object/class.h"),
     Mod().init("include/object/interface.h"),
@@ -68,3 +84,7 @@ with open(OUT_FILENAME, "w") as file:
     file.write(FILEGUARD_DEFINE)
     file.write(out)
     file.write(FILEGUARD_ENDIF)
+
+print()
+
+print("Write out to", OUT_FILENAME)
