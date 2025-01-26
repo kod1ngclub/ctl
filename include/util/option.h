@@ -9,7 +9,7 @@
     typedef struct {            \
         const t data;           \
         const e err;            \
-        const str body;         \
+        const __str__ body;     \
     } option(t, e)              \
 
 #endif // KCTL_UTIL_OPTION_H

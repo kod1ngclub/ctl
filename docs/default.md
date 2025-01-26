@@ -55,3 +55,10 @@ ref(p2) = ...
 - `ref(t)` is for readonly pointer
 - Nothing more than `const t* const`
 - Readonly pointer is usually used for reading too-heavy data
+
+## Else
+
+It also has following types
+
+- `str`: string type (equals `char* const`)
+- `boolean`: boolean type (equals `_Bool` of `"stdbool"`)

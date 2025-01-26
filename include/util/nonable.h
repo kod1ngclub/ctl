@@ -8,7 +8,7 @@
 #define typedef_nonable(t)  \
     typedef struct {        \
         const t data;       \
-        const bool ok;      \
+        const __bool__ ok;  \
     } nonable(t)            \
 
 #endif // KCTL_UTIL_NONABLE_H
