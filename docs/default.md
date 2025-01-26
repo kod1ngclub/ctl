@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - default
+# Kod1ng C Template Library - default
 
-## `cast(t, v)`
+## 📌 `cast(t, v)`
 
 ```c
 long v = 100;
@@ -13,7 +13,7 @@ int c2 = cast(int, v);
 - `cast(t, v)` is a static-casting macro
 - For more explicit syntax
 
-## `succ(t)`
+## 📌 `succ(t)`
 
 ```c
 // equal
@@ -27,7 +27,7 @@ const succ(char) t2 = "Hello, World!";
   - `succ(t)` is succssion of type `t`
   - `succ(char)` is for succssive `char`, namely **string**
 
-## `arrow(t)`
+## 📌 `arrow(t)`
 
 ```c
 FILE sec1 = FileSection("file1.txt", 1);
@@ -45,7 +45,7 @@ sec = sec1 // targeted-file is switched to sec1
 sec = sec2 // targeted-file is switched to sec2
 ```
 
-## `ref(t)`
+## 📌 `ref(t)`
 
 ```c
 const int* const p1 = ...

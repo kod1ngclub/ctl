@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - object/record
+# Kod1ng C Template Library - object/record
 
-## Example
+## 📌 Example
 
 ```h
 sealed(Document) {
@@ -10,7 +10,7 @@ sealed(Document) {
 }
 ```
 
-## How to
+## 📌 How to
 
 - `sealed(n)` is a syntax sugar of `typedef union`
 - It's just for more simple use of `union`

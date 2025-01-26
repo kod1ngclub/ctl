@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - object/record
+# Kod1ng C Template Library - object/record
 
-## Example
+## 📌 Example
 
 ```h
 typedef succ(char) str;
@@ -18,7 +18,7 @@ record(Item) {
 };
 ```
 
-## What is `record(ItemName)`
+### What is that `record(ItemName)`
 
 - Its called `class wrapper`
 - To distinguish value according to context as type
@@ -26,6 +26,6 @@ record(Item) {
   - But they are contextly different, so differtiating them is needed
   - To wrap data with `class`, `struct` or `record` is a traditional way for it
 
-## How to
+## 📌 How to
 
 - `record(n)` is a syntax sugar of `typedef struct`

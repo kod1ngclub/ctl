@@ -1,11 +1,12 @@
 # KCTL
 
-Kod1ng C99 Template Library
+Kod1ng C Template Library
 
 ## Concept
 
-- STL-like library in C99
+- STL-like library in C
 - Evaluated in compile time
+- Only need C99
 
 ## Getting started
 
@@ -15,7 +16,7 @@ python3 make.py
 
 ## Contribute
 
-- **KCTL** is only managed by our team members
+- **kctl** is only managed by our team members
 - Join our [Discord][discord] if you want to contribute
 
 [discord]: https://www.exmaple.discord.com

@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - util/tuple
+# Kod1ng C Template Library - util/tuple
 
-## Example
+## 📌 Example
 
 ```c
 typedef_tuple2(int, char);
@@ -22,7 +22,7 @@ int main(void) {
 }
 ```
 
-## How to
+## 📌 How to
 
 - `typedef_tuple2(n)` is a syntax sugar of `typedef struct`
 - `typedef_tuple3(n)` is a syntax sugar of `typedef struct`

@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - object/class
+# Kod1ng C Template Library - object/class
 
-## Example
+## 📌 Example
 
 ```h
 // food.h
@@ -37,7 +37,7 @@ extern food* Food() {
  */
 ```
 
-## How to
+## 📌 How to
 
 - `class(n)` is a syntax sugar of `typedef struct`
 - `fn(n, ...)` is a syntax sugar of func-ptr

@@ -1,8 +1,8 @@
-# Kod1ng C99 Template Library - index
+# Kod1ng C Template Library - index
 
-## Welcome
+## ⭐ Welcome
 
-Kod1ng C99 Template Library (kctl) is a library for modern syntax.
+Kod1ng C Template Library (kctl) is a library for modern syntax.
 C-language is strong but its weak typing and old language design
 is a obstacle of modern and concrete app development.
 So, kctl brings some modern syntaxes and typings with macro tricks
@@ -11,7 +11,7 @@ So, kctl brings some modern syntaxes and typings with macro tricks
 - utility types
 - support of some basic syntaxes
 
-## Index
+## 📌 Index
 
 After reading basic macros, you can learn about ktcl
 with following roadmaps.

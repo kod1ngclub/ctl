@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - util/option
+# Kod1ng C Template Library - util/option
 
-## Example
+## 📌 Example
 
 ```c
 enum(MathError) {
@@ -29,7 +29,7 @@ option(int, MathError) div(int a, int b) {
 }
 ```
 
-## How to
+## 📌 How to
 
 In upper case, `option(int, MathError)` is like this.
 

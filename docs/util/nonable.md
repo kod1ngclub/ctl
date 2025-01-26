@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - util/nonable
+# Kod1ng C Template Library - util/nonable
 
-## Example
+## 📌 Example
 
 ```c
 typedef_nonable(int);
@@ -16,7 +16,7 @@ nonable(int) div(int a, int b) {
 }
 ```
 
-## How to
+## 📌 How to
 
 In upper case, `nonable(int)` is like this.
 

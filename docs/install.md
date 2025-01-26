@@ -1,8 +1,8 @@
-# Kod1ng C99 Template Library - install
+# Kod1ng C Template Library - install
 
 You can install kctl in your project with following two ways
 
-## Manually copying
+## 📌 Manually copying
 
 - Copy entire files and add them to your project
 - Maybe you can write makefile like this
@@ -18,7 +18,7 @@ some.o: some.c some.h $(KCTL)
 	clang -c some.c        -o some.o
 ```
 
-## Using amalgam
+## 📌 Using amalgam
 
 If your disk volume is enough, you can use amalgam version.
 Amalgam refers to a distribution technique where multiple header and source

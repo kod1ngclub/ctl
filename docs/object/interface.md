@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - object/class
+# Kod1ng C Template Library - object/class
 
-## Example
+## 📌 Example
 
 ```h
 // config.h
@@ -57,7 +57,7 @@ extern CONFIG* Sqlite3Config() {
  */
 ```
 
-## How to
+## 📌 How to
 
 - `interface(n)` is a syntax sugar of `typedef struct`
 - `callable(n, ...)` is a syntax sugar of func-ptr

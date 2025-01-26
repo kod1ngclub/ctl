@@ -1,6 +1,6 @@
-# Kod1ng C99 Template Library - object/enum
+# Kod1ng C Template Library - object/enum
 
-## Example
+## 📌 Example
 
 ```h
 // model/player/state.h
@@ -71,7 +71,7 @@ int main(void) {
 }
 ```
 
-## How to
+## 📌 How to
 
 - `enum(n)` is a syntax sugar of `typedef enum`
 - `piv(s)` is a compile-time hash function with macro
