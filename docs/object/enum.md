@@ -1,4 +1,4 @@
-# Kod1ng C Template Library - object/enum
+# ctl - object/enum
 
 ## 📌 Example
 

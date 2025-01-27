@@ -1,4 +1,4 @@
-# KCTL
+# ctl
 
 Kod1ng C Template Library
 

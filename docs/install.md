@@ -1,6 +1,6 @@
-# Kod1ng C Template Library - install
+# ctl - install
 
-You can install kctl in your project with following two ways
+You can install ctl in your project with following two ways
 
 ## 📌 Manually copying
 
@@ -8,13 +8,13 @@ You can install kctl in your project with following two ways
 - Maybe you can write makefile like this
 
 ```makefile
-KCTL	= lib/kctl/object/class.h	\
-		lib/kctl/object/interface.h	\
-		lib/kctl/object/record.h	\
-		lib/kctl/object/...			\
+CTL		= lib/ctl/object/class.h	\
+		lib/ctl/object/interface.h	\
+		lib/ctl/object/record.h	\
+		lib/ctl/object/...			\
 		...							\
 
-some.o: some.c some.h $(KCTL)
+some.o: some.c some.h $(CTL)
 	clang -c some.c        -o some.o
 ```
 
@@ -34,5 +34,5 @@ You can make amalgam file with following commands
 
 ```bash
 python3 make.py
-# this makes amalgam file (kctl.h)
+# this makes amalgam file (ctl.h)
 ```

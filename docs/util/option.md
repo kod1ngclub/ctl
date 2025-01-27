@@ -1,4 +1,4 @@
-# Kod1ng C Template Library - util/option
+# ctl - util/option
 
 ## 📌 Example
 

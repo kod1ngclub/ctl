@@ -1,5 +1,5 @@
-#ifndef KCTL_UTIL_TUPLE_H
-#define KCTL_UTIL_TUPLE_H
+#ifndef CTL_UTIL_TUPLE_H
+#define CTL_UTIL_TUPLE_H
 
 // ==== tuple2
 #define tuple2(a, b)    __tuple_##a##_##b##__
@@ -31,4 +31,4 @@ typedef struct {                    \
     const d v4;                     \
 } tuple4(a, b, c, d)                \
 
-#endif // KCTL_UTIL_TUPLE_H
+#endif // CTL_UTIL_TUPLE_H

@@ -1,6 +1,6 @@
-#ifndef KCTL_SHARED_STR_H
-#define KCTL_SHARED_STR_H
+#ifndef CTL_SHARED_STR_H
+#define CTL_SHARED_STR_H
 
 typedef char* const __str__;
 
-#endif // KCTL_SHARED_STR_H
+#endif // CTL_SHARED_STR_H

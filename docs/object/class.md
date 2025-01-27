@@ -1,4 +1,4 @@
-# Kod1ng C Template Library - object/class
+# ctl - object/class
 
 ## 📌 Example
 

@@ -78,7 +78,7 @@ FILEGUARD_IFNDEF    = "#ifndef KCTL" + NEWLINE
 FILEGUARD_DEFINE    = "#define KCTL" + NEWLINE
 FILEGUARD_ENDIF     = "#endif // KCTL" + NEWLINE
 
-OUT_FILENAME = "kctl.h"
+OUT_FILENAME = "ctl.h"
 with open(OUT_FILENAME, "w") as file:
     file.write(FILEGUARD_IFNDEF)
     file.write(FILEGUARD_DEFINE)

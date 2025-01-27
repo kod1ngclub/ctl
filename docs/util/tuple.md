@@ -1,4 +1,4 @@
-# Kod1ng C Template Library - util/tuple
+# ctl - util/tuple
 
 ## 📌 Example
 

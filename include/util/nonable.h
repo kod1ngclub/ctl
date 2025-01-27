@@ -1,5 +1,5 @@
-#ifndef KCTL_UTIL_NONABLE_H
-#define KCTL_UTIL_NONABLE_H
+#ifndef CTL_UTIL_NONABLE_H
+#define CTL_UTIL_NONABLE_H
 
 #include "shared/bool.h"
 
@@ -11,4 +11,4 @@
         const __bool__ ok;  \
     } nonable(t)            \
 
-#endif // KCTL_UTIL_NONABLE_H
+#endif // CTL_UTIL_NONABLE_H

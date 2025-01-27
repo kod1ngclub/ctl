@@ -1,5 +1,5 @@
-#ifndef KCTL_VAL_PIV_H
-#define KCTL_VAL_PIV_H
+#ifndef CTL_VAL_PIV_H
+#define CTL_VAL_PIV_H
 
 #define __int_max__         (2147483647)
 #define __hash_int__(x)     ((((long long)(x)) * 265441U) % __int_max__)
@@ -79,4 +79,4 @@
 #define __alt0_hash_int__(x)    (__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(__alt0_subhash_int__(x)))))))
 #define pivalt0(file, len)      ((int)(__alt0_hash_int__((sizeof(file)-1)) + __alt0_hash_int__(len)))
 
-#endif // KCTL_VAL_PIV_H
+#endif // CTL_VAL_PIV_H

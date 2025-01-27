@@ -1,5 +1,5 @@
-#ifndef KCTL_UTIL_OPTION_H
-#define KCTL_UTIL_OPTION_H
+#ifndef CTL_UTIL_OPTION_H
+#define CTL_UTIL_OPTION_H
 
 #include "shared/str.h"
 
@@ -12,4 +12,4 @@
         const __str__ body;     \
     } option(t, e)              \
 
-#endif // KCTL_UTIL_OPTION_H
+#endif // CTL_UTIL_OPTION_H
