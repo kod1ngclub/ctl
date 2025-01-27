@@ -22,7 +22,7 @@ with following roadmaps.
   - class
   - interface
   - record
-  - enum
+  - enumclass
   - sealed
 - util
   - nonable

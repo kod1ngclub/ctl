@@ -1,10 +1,10 @@
-# ctl - object/enum
+# ctl - object/enumclass
 
 ## 📌 Example
 
 ```h
 // model/player/state.h
-enum(PlayerState) {
+enumclass(PlayerState) {
     PLAYER_STATE_IDLE       = piv("MINESERV_MODEL_PLAYER_STATE_H::State"),
     PLAYER_STATE_WALK,
     PLAYER_STATE_RUN,
@@ -16,7 +16,7 @@ enum(PlayerState) {
 
 ```h
 // model/monster/state.h
-enum(MonsterState) {
+enumclass(MonsterState) {
     MONSTER_STATE_IDLE      = piv("MINESERV_MODEL_MONSTER_STATE_H::State"),
     MONSTER_STATE_WALK,
     MONSTER_STATE_ATTACK
@@ -26,12 +26,12 @@ enum(MonsterState) {
 By using `piv(s)`, you can avoid different-enum same-value problem.
 
 ```c
-enum(Fruit) {
+enumclass(Fruit) {
     Apple       = 0,
     Pineapple   = 1
 };
 
-enum(Laptop) {
+enumclass(Laptop) {
     Dell        = 0,
     Mac         = 1
 }
@@ -49,12 +49,12 @@ int main(void) {
 ```
 
 ```c
-enum(Fruit) {
+enumclass(Fruit) {
     Apple       = piv("Fruit"),
     Pineapple
 };
 
-enum(Laptop) {
+enumclass(Laptop) {
     Dell        = piv("Laptop"),
     Mac
 }
@@ -73,7 +73,7 @@ int main(void) {
 
 ## 📌 How to
 
-- `enum(n)` is a syntax sugar of `typedef enum`
+- `enumclass(n)` is a syntax sugar of `typedef enum`
 - `piv(s)` is a compile-time hash function with macro
 
 ### `piv(s)`

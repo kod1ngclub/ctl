@@ -39,7 +39,7 @@ mod = [
     Mod().init("include/object/class.h"),
     Mod().init("include/object/interface.h"),
     Mod().init("include/object/record.h"),
-    Mod().init("include/object/enum.h"),
+    Mod().init("include/object/enumclass.h"),
     Mod().init("include/object/sealed.h"),
 
     Mod().init("include/util/nonable.h"),
